@@ -1,0 +1,146 @@
+body {
+        background-color: rgb(37, 40, 42);
+        text-align: center;
+        padding-top: 70px;
+        padding-right: 16px;
+        font-family: 'Oswald', sans-serif;
+        color: rgb(179, 177, 177)
+}
+
+h1 {
+        border: black;
+        margin-bottom: 10px;
+}
+
+button#fb {
+        background-color: #2c4374;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 104px;
+        padding-left: 104px;
+        color: white;
+        font-family: 'Oswald';
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-bottom: 10px;
+}
+
+button#fb:hover {
+        background-color: rgb(37, 40, 42);
+        transition: 0.5s;
+        cursor: pointer;
+}
+
+button#tt {
+        background-color: #076faf;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 111px;
+        padding-left: 111px;
+        color: white;
+        font-family: 'Oswald';
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-bottom: 8px;
+}
+
+button#tt:hover {
+        background-color: rgb(37, 40, 42);
+        transition: 0.5s;
+        cursor: pointer;
+}
+
+h2 {
+        font-size: 21px;
+        margin-bottom: 6px;
+}
+
+input#email {
+        background-color: rgb(22, 23, 24);
+        font-size: 16px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 150px;
+        padding-left: 30px;
+        font-family: 'Oswald';
+        font-style: bold;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        margin-bottom: 17px;
+        color: white;
+}
+
+input#email:hover{
+        padding-right: 160px;
+        padding-left: 40px;
+        transition: 0.5s;
+        cursor: white;
+}
+
+input#password {
+        background-color: rgb(22, 23, 24);
+        font-size: 16px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 150px;
+        padding-left: 30px;
+        font-family: 'Oswald';
+        font-style: bold;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        color: white;
+}
+
+input#password:hover {
+        padding-right: 160px;
+        padding-left: 40px;
+        transition: 0.5s;
+}
+
+button#login {
+        background-color: rgb(37, 40, 42);
+        border: none;
+        outline: none;
+        color: white;
+        font-family: 'Oswald';
+        font-size: 15px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 30px;
+        margin-bottom: 200px;
+}
+
+button#login:hover {
+        cursor: pointer;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 30px;
+        margin-bottom: 200px;
+        background-color: rgb(22, 23, 24);
+        transition: 0.5s;
+}
+
+h5 {
+        font-size: 15px;
+        position: left 0;
+        position: bottom 0;
+        margin-bottom: 10px;
+}
+
+h3 {
+        cursor: pointer;
+        font-size: 15px;
+        position: left 0;
+        position: bottom 0;
+        margin-top: 10px;
+}

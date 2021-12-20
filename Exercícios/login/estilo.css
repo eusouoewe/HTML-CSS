@@ -1,0 +1,41 @@
+body {
+        font-family: Varela Round;
+        background-image: linear-gradient(45deg, cyan, yellow);
+}
+
+h1 {
+        text-align: center;
+}
+
+.tela-login {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 80px;
+        border-radius: 15px;
+        color: white;
+}
+
+input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        font-size: 15px;
+}
+
+button {
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 7px;
+        color: white;
+        font-size: 16px;
+}
+button:hover {
+       cursor: pointer;
+        background-color: deepskyblue;
+}
