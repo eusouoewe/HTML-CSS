@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+        padding: 0; margin: 0;border: 0;
+        max-width: 100vw;
+        min-width: 400px;
+}
+
+header {
+        background-color: black;
+        background-attachment: scroll;
+        color: white;
+        height: 280px;
+}
+
+header > h1 {
+        text-align: center;
+        padding-top: 45px;
+        font-family: 'Passion One', cursive;
+        font-size: 147px;
+}
+
+header > p {
+        text-align: center;
+        font-family: 'Verdana';
+        padding-bottom: 30px;
+}
+
+#link {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+}
+
+#link:hover {
+        text-decoration: underline;
+}
+
+main > p {
+        font-family: 'Sriracha', cursive;
+        font-size: 51px;
+        line-height: 50.6px;
+        padding: 100px 35px;
+}
+
+main > section.bg01 {
+        background-image: url(../imagens/background001.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 75px 35px;
+        box-shadow: inset -1px 0 15px black;
+}
+
+#fundo01 {
+        font-family: 'Sriracha', cursive;
+        font-size: 51px;
+        line-height: 50.6px;
+        width: fit-content;
+        background-color: rgba(0, 0, 0, 0.486);
+        color: white;
+        padding: 30px 7px;
+}
+
+main > section.bg02 {
+        background-image: url(../imagens/background002.jpg);
+        background-size: 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 75px 35px;
+        box-shadow: inset -1px 0 15px black;
+}
+
+#fundo02 {
+        font-family: 'Sriracha', cursive;
+        font-size: 51px;
+        line-height: 50.6px;
+        width: fit-content;
+        background-color: rgba(0, 0, 0, 0.486);
+        color: white;
+        padding: 30px 7px;
+        text-shadow: 1px 1px 1px black;
+}
+
+footer {
+        font-family: 'Verdana';
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+}
